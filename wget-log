@@ -1,11 +1,0 @@
---2021-04-24 10:10:03--  https://services1.arcgis.com/0MSEUqKaxRlEPj5g/arcgis/rest/services/Coronavirus_2019_nCoV_Cases/FeatureServer/1/query?where=1%3D1
-Résolution de services1.arcgis.com (services1.arcgis.com)… 54.192.105.68, 54.192.105.61, 54.192.105.37, ...
-Connexion à services1.arcgis.com (services1.arcgis.com)|54.192.105.68|:443… connecté.
-requête HTTP transmise, en attente de la réponse… 200 OK
-Taille : 20478 (20K)
-Enregistre : «query?where=1=1.1»
-
-query?where=1=1.1     0%[                    ]       0  --.-KB/s               query?where=1=1.1   100%[===================>]  20,00K  --.-KB/s    ds 0,004s  
-
-2021-04-24 10:10:04 (4,80 MB/s) - «query?where=1=1.1» enregistré [20478/20478]
-
