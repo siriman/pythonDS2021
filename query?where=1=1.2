@@ -1,0 +1,788 @@
+<html lang="en">
+<head>
+  <title>Query: Cases (ID: 1)</title>
+  <link href='/ESRI.ArcGIS.SDS.REST.css' rel='stylesheet' type='text/css'>
+  <link rel='SHORTCUT ICON' href='/favicon.ico'>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+</head>
+<body>
+<table width="100%" class="userTable">
+<tr>
+<td class="titlecell">ArcGIS REST Services Directory</td>
+</tr>
+</table>
+<table class="navTable" width="100%">
+<tbody>
+<tr valign="top">
+<td class="breadcrumbs">
+<a href="/0MSEUqKaxRlEPj5g/ArcGIS/rest/services">Home</a> > <a href="/0MSEUqKaxRlEPj5g/ArcGIS/rest/services">services</a> > <a href="/0MSEUqKaxRlEPj5g/ArcGIS/rest/services/Coronavirus_2019_nCoV_Cases/FeatureServer">Coronavirus_2019_nCoV_Cases (FeatureServer)</a> > <a href="/0MSEUqKaxRlEPj5g/ArcGIS/rest/services/Coronavirus_2019_nCoV_Cases/FeatureServer/1">Cases</a> > <a href="/0MSEUqKaxRlEPj5g/ArcGIS/rest/services/Coronavirus_2019_nCoV_Cases/FeatureServer/1/query"><i>query</i></a> </td>
+<td align="right">
+<a href="http://resources.arcgis.com/en/help/arcgis-rest-api/" target="_blank">API Reference</a></td>
+</tr>
+</tbody>
+</table>
+<div class='restHeader'>
+<h2>Query: Cases (ID: 1)</h2>
+</div>
+<div class='restBody'>
+<form>
+<table class='formTable'>
+<tr>
+<td>
+Where:
+</td>
+<td>
+<input type="text" name="where" value="1=1" size="75" />
+</td>
+</tr>
+<tr>
+<td>
+Object IDs:
+</td>
+<td>
+<input type="text" name="objectIds" value="" size="75" />
+</td>
+</tr>
+<tr>
+<td>
+Time:
+</td>
+<td>
+<input type="text" name="time" value="" size="75" />
+</td>
+</tr>
+<tr>
+<td>Input Geometry:</td>
+<td><textarea name='geometry' rows='5' cols='55' ></textarea></td>
+</tr>
+<tr>
+<td>Geometry Type:</td>
+<td>
+<select name="geometryType">
+<option value="esriGeometryEnvelope" selected='true'>Envelope</option>
+<option value="esriGeometryPoint">Point</option>
+<option value="esriGeometryPolyline">Polyline</option>
+<option value="esriGeometryPolygon">Polygon</option>
+<option value="esriGeometryMultipoint">Multipoint</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>
+Input Spatial Reference:
+</td>
+<td>
+<input type="text" name="inSR" value="" size="75" />
+</td>
+</tr>
+<tr>
+<td>Spatial Relationship:</td>
+<td>
+<select name="spatialRel">
+<option value="esriSpatialRelIntersects" selected='true'>Intersects</option>
+<option value="esriSpatialRelContains">Contains</option>
+<option value="esriSpatialRelCrosses">Crosses</option>
+<option value="esriSpatialRelEnvelopeIntersects">Envelope Intersects</option>
+<option value="esriSpatialRelIndexIntersects">Index Intersects</option>
+<option value="esriSpatialRelOverlaps">Overlaps</option>
+<option value="esriSpatialRelTouches">Touches</option>
+<option value="esriSpatialRelWithin">Within</option>
+<option value="esriSpatialRelDisjoint">Disjoint</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Result Type: </td>
+<td>
+<select name="resultType">
+<option value="none" selected='true'>None</option>
+<option value="standard">Standard</option>
+<option value="tile">Tile</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>
+Distance:
+</td>
+<td>
+<input type="text" name="distance" value="0.0" size="30" />
+</td>
+</tr>
+<tr>
+<td>Units:</td>
+<td>
+<select name="units">
+<option value="esriSRUnit_Meter" selected='true'>Meters</option>
+<option value="esriSRUnit_StatuteMile">Miles</option>
+<option value="esriSRUnit_Foot">Feet</option>
+<option value="esriSRUnit_Kilometer">Kilometers</option>
+<option value="esriSRUnit_NauticalMile">Nautical Miles</option>
+<option value="esriSRUnit_USNauticalMile">US NauticalMiles</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Return Geodetic:</td>
+<td>
+<input type="radio" name="returnGeodetic" value="true"/>True&nbsp;
+<input type="radio" name="returnGeodetic" value="false" checked='true'/>False</td>
+</tr>
+<tr>
+<td>
+Out Fields:
+</td>
+<td>
+<input type="text" name="outFields" value="" size="75" />
+</td>
+</tr>
+<tr>
+<td>Return Geometry:</td>
+<td>
+<input type="radio" name="returnGeometry" value="true" checked='true'/>True&nbsp;
+<input type="radio" name="returnGeometry" value="false"/>False</td>
+</tr>
+<tr>
+<td>Feature Encoding:</td>
+<td>
+<select name="featureEncoding">
+<option value="esriDefault" selected="true">esriDefault</option>
+<option value="esriCompressedShapeBuffer">esriCompressedShapeBuffer</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Geometry MultiPatch Option:</td>
+<td>
+<select name="multipatchOption">
+<option value="none" >None</option>
+<option value="xyFootprint" selected="true">xyFootprint</option>
+<option value="stripMaterials" >stripMaterials</option>
+<option value="embedMaterials" >embedMaterials</option>
+<option value="externalizeTextures" >externalizeTextures</option>
+<option value="extent" >extent</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>
+Max Allowable Offset:
+</td>
+<td>
+<input type="text" name="maxAllowableOffset" value="" size="75" />
+</td>
+</tr>
+<tr>
+<td>
+Geometry Precision:
+</td>
+<td>
+<input type="text" name="geometryPrecision" value="" size="75" />
+</td>
+</tr>
+<tr>
+<td>
+Output Spatial Reference:
+</td>
+<td>
+<input type="text" name="outSR" value="" size="75" />
+</td>
+</tr>
+<tr>
+<td>
+Datum Transformation:
+</td>
+<td>
+<input type="text" name="datumTransformation" value="" size="75" />
+</td>
+</tr>
+<tr>
+<td>Apply VCS Projection:</td>
+<td>
+<input type="radio" name="applyVCSProjection" value="true"/>True&nbsp;
+<input type="radio" name="applyVCSProjection" value="false" checked='true'/>False</td>
+</tr>
+<tr>
+<td>Return IDs Only:</td>
+<td>
+<input type="radio" name="returnIdsOnly" value="true"/>True&nbsp;
+<input type="radio" name="returnIdsOnly" value="false" checked='true'/>False</td>
+</tr>
+<tr>
+<td>Return Unique IDs Only:</td>
+<td>
+<input type="radio" name="returnUniqueIdsOnly" value="true"/>True&nbsp;
+<input type="radio" name="returnUniqueIdsOnly" value="false" checked='true'/>False</td>
+</tr>
+<tr>
+<td>Return Count Only:</td>
+<td>
+<input type="radio" name="returnCountOnly" value="true"/>True&nbsp;
+<input type="radio" name="returnCountOnly" value="false" checked='true'/>False</td>
+</tr>
+<tr>
+<td>Return Extent Only:</td>
+<td>
+<input type="radio" name="returnExtentOnly" value="true"/>True&nbsp;
+<input type="radio" name="returnExtentOnly" value="false" checked='true'/>False</td>
+</tr>
+<tr>
+<td>Return Query Geometry:</td>
+<td>
+<input type="radio" name="returnQueryGeometry" value="true"/>True&nbsp;
+<input type="radio" name="returnQueryGeometry" value="false" checked='true'/>False</td>
+</tr>
+<tr>
+<td>Return Distinct Values:</td>
+<td>
+<input type="radio" name="returnDistinctValues" value="true"/>True&nbsp;
+<input type="radio" name="returnDistinctValues" value="false" checked='true'/>False</td>
+</tr>
+<tr>
+<td>Cache Hint</td>
+<td>
+<input type="radio" name="cacheHint" value="true"/>True&nbsp;
+<input type="radio" name="cacheHint" value="false" checked='true'/>False</td>
+</tr>
+<tr>
+<td>
+Order By Fields:
+</td>
+<td>
+<input type="text" name="orderByFields" value="" size="75" />
+</td>
+</tr>
+<tr>
+<td>
+Group By Fields (For Statistics):
+</td>
+<td>
+<input type="text" name="groupByFieldsForStatistics" value="" size="75" />
+</td>
+</tr>
+<tr>
+<td>Output Statistics:</td>
+<td><textarea name='outStatistics' rows='5' cols='55' ></textarea></td>
+</tr>
+<tr>
+<td>
+Having:
+</td>
+<td>
+<input type="text" name="having" value="" size="75" />
+</td>
+</tr>
+<tr>
+<td>
+Result Offset:
+</td>
+<td>
+<input type="text" name="resultOffset" value="" size="30" />
+</td>
+</tr>
+<tr>
+<td>
+Result Record Count:
+</td>
+<td>
+<input type="text" name="resultRecordCount" value="" size="30" />
+</td>
+</tr>
+<tr>
+<td>ReturnZ:</td>
+<td>
+<input type="radio" name="returnZ" value="true"/>True&nbsp;
+<input type="radio" name="returnZ" value="false" checked='true'/>False</td>
+</tr>
+<tr>
+<td>ReturnM:</td>
+<td>
+<input type="radio" name="returnM" value="true"/>True&nbsp;
+<input type="radio" name="returnM" value="false" checked='true'/>False</td>
+</tr>
+<tr>
+<td>Return Exceeded Limit Features:</td>
+<td>
+<input type="radio" name="returnExceededLimitFeatures" value="true" checked='true'/>True&nbsp;
+<input type="radio" name="returnExceededLimitFeatures" value="false"/>False</td>
+</tr>
+<tr>
+<td>Quantization Parameters:</td>
+<td><textarea name='quantizationParameters' rows='5' cols='55' ></textarea></td>
+</tr>
+<tr>
+<td>SQL Format:</td>
+<td>
+<select name="sqlFormat">
+<option value="none" >none</option>
+<option value="standard" >standard</option>
+<option value="native" >native</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Format: </td>
+<td>
+<select name="f">
+<option value="html" selected='true'>HTML</option>
+<option value="pjson">JSON</option>
+<option value="pgeojson">GEOJSON</option>
+<option value="pbf">PBF</option>
+</select>
+</td>
+</tr>
+<tr><td colspan='2' align='left'>
+<input type='submit' value='Query (GET)' />
+<input type='submit' onclick='this.form.method = "post";' value='Query (POST)' />
+</td></tr>
+</table>
+<input type="hidden" id="token" name="token" value="" />
+</form>
+<i>displaying top 50 of 766 results</i><br/><br/>
+<table class='ftrTable'>
+<tr><td>Province_State:</td><td></td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 67.709953000000041<br/>
+Y: 33.939110000000028<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td></td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 20.168300000000045<br/>
+Y: 41.153300000000058<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td></td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 1.6596000000000686<br/>
+Y: 28.033900000000074<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td></td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 1.5218000000000416<br/>
+Y: 42.506300000000067<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td></td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 17.873900000000049<br/>
+Y: -11.202699999999936<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td></td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: -61.796399999999949<br/>
+Y: 17.060800000000029<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td></td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: -63.61669999999998<br/>
+Y: -38.416099999999972<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td></td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 45.038200000000074<br/>
+Y: 40.069100000000049<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td>Australian Capital Territory</td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 149.01240000000007<br/>
+Y: -35.473499999999945<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td>New South Wales</td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 151.2093000000001<br/>
+Y: -33.868799999999965<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td>Northern Territory</td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 130.8456000000001<br/>
+Y: -12.463399999999979<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td>Queensland</td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 153.02510000000007<br/>
+Y: -27.469799999999964<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td>South Australia</td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 138.60070000000007<br/>
+Y: -34.928499999999929<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td>Tasmania</td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 147.32720000000006<br/>
+Y: -42.88209999999998<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td>Victoria</td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 144.96310000000005<br/>
+Y: -37.813599999999951<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td>Western Australia</td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 115.86050000000012<br/>
+Y: -31.950499999999977<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td></td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 14.550100000000043<br/>
+Y: 47.516200000000026<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td></td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 47.57690000000008<br/>
+Y: 40.143100000000061<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td></td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: -78.035888999999941<br/>
+Y: 25.025885000000073<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td></td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 50.550000000000068<br/>
+Y: 26.027500000000032<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td></td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 90.356300000000033<br/>
+Y: 23.685000000000059<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td></td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: -59.543199999999956<br/>
+Y: 13.193900000000042<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td></td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 27.953400000000045<br/>
+Y: 53.70980000000003<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td>Antwerp</td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 4.4024000000000569<br/>
+Y: 51.219500000000039<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td>Brussels</td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 4.3517000000000507<br/>
+Y: 50.850300000000061<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td>East Flanders</td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 3.7373000000000616<br/>
+Y: 51.036200000000065<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td>Flemish Brabant</td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 4.5833000000000652<br/>
+Y: 50.916700000000048<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td>Hainaut</td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 4.0621000000000436<br/>
+Y: 50.525700000000029<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td>Liege</td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 5.849200000000053<br/>
+Y: 50.449600000000032<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td>Limburg</td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 5.3420000000000414<br/>
+Y: 50.973900000000071<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td>Luxembourg</td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 5.4677000000000362<br/>
+Y: 50.054700000000025<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td>Namur</td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 4.8221000000000345<br/>
+Y: 50.331000000000074<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td>Unknown</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td>Walloon Brabant</td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 4.3500000000000227<br/>
+Y: 50.400000000000034<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td>West Flanders</td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 3.1458000000000652<br/>
+Y: 51.053600000000074<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td></td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: -88.497599999999977<br/>
+Y: 17.189900000000023<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td></td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 2.3158000000000243<br/>
+Y: 9.307700000000068<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td></td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 90.433600000000069<br/>
+Y: 27.514200000000073<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td></td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: -63.58869999999996<br/>
+Y: -16.29019999999997<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td></td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 17.679100000000062<br/>
+Y: 43.915900000000079<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td></td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: 24.684900000000027<br/>
+Y: -22.328499999999963<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td>Acre</td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: -70.811999999999955<br/>
+Y: -9.0237999999999374<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td>Alagoas</td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: -36.781999999999982<br/>
+Y: -9.5712999999999511<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td>Amapa</td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: -52.002999999999986<br/>
+Y: 0.90200000000004366<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td>Amazonas</td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: -65.856099999999969<br/>
+Y: -3.4167999999999665<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td>Bahia</td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: -41.700699999999983<br/>
+Y: -12.579699999999946<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td>Ceara</td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: -39.320599999999956<br/>
+Y: -5.4983999999999469<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td>Distrito Federal</td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: -47.864499999999964<br/>
+Y: -15.799799999999948<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td>Espirito Santo</td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: -40.308899999999937<br/>
+Y: -19.183399999999949<br/>
+</td></tr>
+</table><br/>
+<hr/><table class='ftrTable'>
+<tr><td>Province_State:</td><td>Goias</td></tr>
+<tr class='odd'><td><i>geometry</i></td>
+<td>
+<i>Point:</i><br/>
+X: -49.836199999999963<br/>
+Y: -15.826999999999941<br/>
+</td></tr>
+</table><br/>
+</div>
+</body>
+</html>
